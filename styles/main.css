@@ -67,7 +67,7 @@ header .head-details .details button {
     display: grid;
     align-items: center;
     grid-template-columns: 50% 50%;
-    margin: 0 auto;
+    margin: 0;
   }
   header .head-details .image img {
     width: 90%;
@@ -103,12 +103,21 @@ header .head-details .details button {
   }
 }
 @media screen and (max-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    padding: 0px;
+    position: relative;
+    border: 2px solid green;
+  }
   header .head-details {
     width: 100%;
-    display: grid;
+    display: flex;
     align-items: center;
-    grid-template-columns: 50% 50%;
-    margin: 0 auto;
+    margin: 0;
   }
   header .head-details .image img {
     width: 90%;
