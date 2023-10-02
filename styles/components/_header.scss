@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    position: relative;
+    
+    .head-details{
+       width: 100%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto;
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 80%;
+        }
+    }
+    .details{
+        padding: 100px;
+        
+        h2{
+            font-size: 30px;
+            color: #81047c;
+            width: 550px;
+        }
+        li{
+            font-size: 20px;
+            list-style-type: circle;
+            margin: 30px;
+        }
+        input{
+            font-size: 20px;
+            outline: none;
+            padding: 10px;
+            width: 50%;
+            margin: 10px;
+            border: none;
+            background: gainsboro;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            width: 20%;
+            background: #81047c;
+            color: white;
+        }
+    }
+        
+    }
+}
+@media screen and (max-width: 1000px){
+    
+    header{
+       
+        
+        .head-details{
+           width: 90%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: 50% 50%;
+            margin: 0 auto;
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            img{
+                width: 80%;
+            }
+        }
+        .details{
+            padding: 10px;
+            
+            h2{
+                font-size: 20px;
+                color: #81047c;
+                width: 550px;
+            }
+            li{
+                font-size: 10px;
+                list-style-type: circle;
+                margin: 30px;
+            }
+            input{
+                font-size: 20px;
+                outline: none;
+                padding: 10px;
+                width: 50%;
+                margin: 5px;
+                border: none;
+                background: gainsboro;
+            }
+            button{
+                padding: 10px 20px;
+                font-size: 20px;
+                border: none;
+                width: 20%;
+                background: #81047c;
+                color: white;
+            }
+        }
+            
+        }
+    }
+}

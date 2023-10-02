@@ -1,0 +1,24 @@
+main{
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background: #81047c ;
+        width: 100%;
+        height: 10vh;
+        align-items: center;
+        .social-media{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            svg{
+                height: 50px;
+                gap: 15px;
+            }
+            .copyright{
+                display: flex;
+                flex-direction: row;
+            }
+            
+        }
+    }
+}
