@@ -7,18 +7,15 @@
 }
 
 header {
-  background-image: url(../../assets/img/bg\ img.png);
   height: 850px;
-  background-position: center;
   width: 100%;
-  background-size: cover;
 }
 header .content {
   padding: 5%;
-  width: 50%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   text-align: start;
 }
 header .content h2 {
@@ -51,18 +48,15 @@ header form .btn {
 
 @media screen and (max-width: 1000px) {
   header {
-    background-image: url(../../assets/img/bg\ img.png);
     height: 100%;
-    background-position: center;
     width: 100%;
-    background-size: cover;
   }
   header .content {
     padding: 5%;
-    width: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     text-align: start;
   }
   header .content h2 {
@@ -100,7 +94,7 @@ header form .btn {
   }
   header .content {
     padding: 2%;
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
