@@ -63,13 +63,13 @@ header{
             padding: 5%;
             width: 100%;
             display: flex;
-            // flex-direction: column;
+            // flex-directi: column;
             justify-content: space-between;
             align-items: center;
             text-align: start;
             h2{
                 color:  #81047c;
-                padding: 10px;
+                // padding: 10px;
                 font-size: 15px;
     
             }
@@ -118,14 +118,14 @@ header{
             h2{
                 color:  #81047c;
                 padding: 5px;
-                font-size: 10px;
+                font-size: 15px;
     
             }
             li{
                 padding: 10px;
                 list-style-type: none;
                 font-weight: 600;
-                font-size: 8px;
+                font-size: 10px;
             }
         
         }
@@ -137,14 +137,18 @@ header{
             input{
                 outline: none;
                 border: none;
-                font-size: 8px;
+                font-size: 10px;
                 padding: 3px 8px;
                 
             }
+            
             .btn{
                 background: #81047c;
                 color: white;
             }
+        }
+        img{
+            height: 200px;
         }
     }
 }
