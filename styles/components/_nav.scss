@@ -4,7 +4,7 @@
         align-items: center;
         width: 100%;
         height: 8vh;
-        box-shadow: 0 0 20px 0 #81047c;
+        // box-shadow: 0 0 20px 0 #81047c;
         position: sticky;
         h1{
             color: black;
@@ -28,7 +28,7 @@
 
                 a{
                     color: rgb(53, 53, 53); 
-                    font-size: 30px;
+                    font-size: 20px;
                     padding: 10px;
                     text-decoration: none;
                 
@@ -40,10 +40,10 @@
             display: flex;
             justify-content: center;
             svg{
-                height: 50px;
+                height: 30px;
             }
             a{
-                font-size: 30px;
+                font-size: 20px;
                 text-decoration: none;
                 text-transform: capitalize;
             }
@@ -82,10 +82,11 @@
         .my{
            
             svg{
-                height: 25px;
+                height: 15px;
             }
             a{
-                font-size: 17px;
+                font-size: 10px;
+                color: #1c1c1c;
             }
             
         }  
@@ -129,7 +130,7 @@
             // justify-content: end;
             
             svg{
-                height: 35px
+                height: 25px
             }
         }
         
